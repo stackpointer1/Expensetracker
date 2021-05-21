@@ -1,0 +1,20 @@
+.transaction_conatiner {
+  position: relative;
+  bottom: 110px;
+}
+.list {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 4px;
+  list-style: none;
+}
+.minus{
+  list-style: none
+  
+}
+.plus{
+  border-right: 5px solid #2ecc71;
+}
+.minus{
+  border-right: 5px solid #c0392b;
+}

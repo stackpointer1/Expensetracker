@@ -1,0 +1,78 @@
+* {
+}
+.exp-conatiner {
+  box-sizing: border-box;
+  top: 100px;
+}
+.MoneyPlus {
+  background-color: rgb(174, 165, 230);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 60px;
+  border-right: 3px solid black;
+  object-fit: conatin;
+  position: relative;
+  color: yellow;
+  font-size: 20px;
+  text-align: center
+}
+.money-minus {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 60px;
+  background-color: rgb(174, 165, 230);
+  left: 170px;
+  bottom: 120px;
+  justify-content: center;
+  color: darkred;
+  font-size: 20px;
+  text-align: center
+}
+.expense {
+  position: relative;
+  left: 170px;
+  bottom: 110px;
+}
+.income{
+  position: relative;
+  left: 170px;
+  bottom: 110px;
+}
+.money {
+  position: relative;
+  left: 200px;
+}
+.delete-btn {
+cursor:pointer;
+background-color: #fff;
+border:0;
+color:#e74c3c;
+font-size:20px;
+line-height: 20px;
+padding:0px 0px ;
+position:absolute;
+top:30%;
+left:0;
+transform :translate((-100%,-50%));
+opacity:0;
+transition: opacity 0.3s ease;
+}
+li:hover .delete-btn {
+  opacity: 1;
+}
+
+ li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 25px;
+  margin: 10px 0;
+ }
